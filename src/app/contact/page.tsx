@@ -1,0 +1,1 @@
+export default function Page(){return <article className="container section"><h1>Կապ մեզ հետ</h1><p>Գրանցման, լիցքավորման, ելքագրման կամ ծառայության վերաբերյալ հարցերով կապ հաստատեք օպերատորի հետ։</p><a className="btn primary" href="https://t.me/yvnbet">Գրել Telegram-ում</a></article>}
