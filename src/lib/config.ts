@@ -1,0 +1,1 @@
+export const config={telegramUrl:process.env.TELEGRAM_URL||"https://t.me/yvnbet",providerUrl:process.env.PROVIDER_URL||"https://ggplus.pro",sessionSecret:process.env.ADMIN_SESSION_SECRET||"",adminUsername:process.env.ADMIN_USERNAME||"",adminPasswordHash:process.env.ADMIN_PASSWORD_HASH||"",totpSecret:process.env.ADMIN_TOTP_SECRET||""};
