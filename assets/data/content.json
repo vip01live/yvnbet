@@ -1,0 +1,47 @@
+{
+  "brand":"YvnBet",
+  "telegramUrl":"https://t.me/yvnbet",
+  "loginUrl":"/login/",
+  "languages":["hy","ru","en"],
+  "defaultLanguage":"hy",
+  "seo":{
+    "title":{"hy":"YvnBet — Խաղա՛ վստահ, հաղթի՛ր YVNBET-ի հետ","ru":"YvnBet — Играй уверенно, побеждай с YVNBET","en":"YvnBet — Play with confidence, win with YVNBET"},
+    "description":{"hy":"YvnBet առցանց խաղեր, արագ լիցքավորում և +10% բոնուս յուրաքանչյուր ավանդի համար։","ru":"YvnBet онлайн-игры, быстрое пополнение и +10% бонус к каждому депозиту.","en":"YvnBet online games, fast deposits and +10% bonus on every deposit."},
+    "keywords":{"hy":"յվնբեթ, առցանց խաղեր, սլոտեր, ջեքփոթ, բոնուս, լիցքավորում, yvnbet","ru":"yvnbet, онлайн игры, слоты, джекпот, бонус, пополнение, казино","en":"yvnbet, online games, slots, jackpot, bonus, deposits, casino"}
+  },
+  "ui":{
+    "login":{"hy":"Մուտք","ru":"Вход","en":"Login"},
+    "register":{"hy":"Գրանցում","ru":"Регистрация","en":"Register"},
+    "hero":{"hy":"Խաղա՛ վստահ, հաղթի՛ր YVNBET-ի հետ։","ru":"Играй уверенно, побеждай вместе с YVNBET.","en":"Play with confidence, win with YVNBET."},
+    "heroText":{"hy":"Խաղեր, արագ սպասարկում և հարմար լիցքավորում՝ մեկ տեղում։","ru":"Игры, быстрое обслуживание и удобное пополнение — в одном месте.","en":"Games, fast service and convenient deposits — all in one place."},
+    "bonus":{"hy":"+10% բոնուս ամեն լիցքավորման համար","ru":"+10% бонус к каждому пополнению","en":"+10% bonus on every deposit"},
+    "games":{"hy":"Խաղեր","ru":"Игры","en":"Games"},
+    "payments":{"hy":"Լիցքավորում","ru":"Пополнение","en":"Deposit methods"},
+    "advantages":{"hy":"YvnBet-ի առավելությունները","ru":"Преимущества YvnBet","en":"Why YvnBet"},
+    "wins":{"hy":"Վերջին շահումներ","ru":"Последние выигрыши","en":"Recent wins"},
+    "responsible":{"hy":"Խաղա պատասխանատվությամբ","ru":"Играйте ответственно","en":"Play responsibly"},
+    "contact":{"hy":"Կապ մեզ հետ","ru":"Контакты","en":"Contact"},
+    "about":{"hy":"Մեր մասին","ru":"О нас","en":"About us"},
+    "terms":{"hy":"Կայքի պայմանները","ru":"Условия","en":"Terms"},
+    "privacy":{"hy":"Գաղտնիության քաղաքականություն","ru":"Конфиденциальность","en":"Privacy policy"},
+    "partners":{"hy":"Գործընկերային ծրագիր","ru":"Партнёрская программа","en":"Affiliate program"},
+    "responsiblePage":{"hy":"Պատասխանատու խաղ","ru":"Ответственная игра","en":"Responsible play"}
+  },
+  "ageGate":{
+    "title":{"hy":"Դուք 18 տարեկան եք?","ru":"Вам есть 18 лет?","en":"Are you 18 or older?"},
+    "yes":{"hy":"Այո","ru":"Да","en":"Yes"},
+    "no":{"hy":"Ոչ","ru":"Нет","en":"No"}
+  },
+  "advantages":[
+    {"icon":"shield","text":{"hy":"Գաղտնիության նկատմամբ հատուկ ուշադրություն","ru":"Особое внимание к конфиденциальности","en":"Privacy-focused service"}},
+    {"icon":"lock","text":{"hy":"Անձնական տվյալների պաշտպանված մշակում","ru":"Защищённая обработка личных данных","en":"Protected handling of personal data"}},
+    {"icon":"headset","text":{"hy":"Օպերատորը միշտ կապի մեջ է","ru":"Оператор всегда на связи","en":"An operator is always available"}},
+    {"icon":"eye-off","text":{"hy":"Գրանցման գործընթացը՝ Telegram-ով","ru":"Регистрация через Telegram","en":"Registration through Telegram"}},
+    {"icon":"gift","text":{"hy":"+10% բոնուս ամեն լիցքավորման համար","ru":"+10% бонус за каждое пополнение","en":"+10% bonus on every deposit"}}
+  ],
+  "slides":[
+    {"id":"bonus","title":{"hy":"+10% բոնուս ամեն լիցքավորման համար","ru":"+10% бонус к каждому пополнению","en":"+10% bonus on every deposit"},"text":{"hy":"Սկսիր Telegram-ից։","ru":"Начни с Telegram.","en":"Start in Telegram."},"image":"/assets/img/slides/bonus.svg","cta":"register"},
+    {"id":"privacy","title":{"hy":"Գաղտնիություն՝ առաջին տեղում","ru":"Конфиденциальность на первом месте","en":"Privacy comes first"},"text":{"hy":"Պարզ և ուղիղ հաղորդակցություն օպերատորի հետ։","ru":"Прямая связь с оператором.","en":"Direct communication with the operator."},"image":"/assets/img/slides/privacy.svg"},
+    {"id":"games","title":{"hy":"Խաղեր՝ մեկ հարթակում","ru":"Игры — в одном месте","en":"Games in one place"},"text":{"hy":"Ընտրիր խաղդ և անցիր առաջ։","ru":"Выбирай игру и начинай.","en":"Choose a game and get started."},"image":"/assets/img/slides/games.svg"}
+  ]
+}
