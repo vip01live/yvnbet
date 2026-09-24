@@ -1,0 +1,1 @@
+const cookie=require('cookie');module.exports=(req,res)=>{res.setHeader('Set-Cookie',cookie.serialize('yvnbet_admin','',{httpOnly:true,secure:true,sameSite:'strict',path:'/',expires:new Date(0)}));res.status(200).json({ok:true})};
