@@ -1,0 +1,8 @@
+[
+  {"id":"aurora","name":"Aurora Slots","description":{"hy":"Նեոնային սլոտ","ru":"Неоновый слот","en":"Neon slots"},"image":"/assets/img/games/aurora.svg","url":"https://t.me/yvnbet"},
+  {"id":"royal","name":"Royal Table","description":{"hy":"Սեղանի խաղեր","ru":"Настольные игры","en":"Table games"},"image":"/assets/img/games/royal.svg","url":"https://t.me/yvnbet"},
+  {"id":"orbit","name":"Orbit Crash","description":{"hy":"Արագ ռաունդներ","ru":"Быстрые раунды","en":"Fast rounds"},"image":"/assets/img/games/orbit.svg","url":"https://t.me/yvnbet"},
+  {"id":"diamond","name":"Diamond Room","description":{"hy":"Պրեմիում սլոտ","ru":"Премиальный слот","en":"Premium slots"},"image":"/assets/img/games/diamond.svg","url":"https://t.me/yvnbet"},
+  {"id":"black","name":"Black Table","description":{"hy":"Blackjack","ru":"Блэкджек","en":"Blackjack"},"image":"/assets/img/games/black.svg","url":"https://t.me/yvnbet"},
+  {"id":"roulette","name":"Roulette","description":{"hy":"Ռուլետկա","ru":"Рулетка","en":"Roulette"},"image":"/assets/img/games/roulette.svg","url":"https://t.me/yvnbet"}
+]
