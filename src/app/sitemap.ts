@@ -1,0 +1,1 @@
+import type {MetadataRoute} from "next"; export default function sitemap():MetadataRoute.Sitemap{return ["/","/login/","/terms/","/about/","/contact/","/privacy/","/partners/","/responsible-gaming/"].map(path=>({url:"https://yvnbet.com"+path}))}
