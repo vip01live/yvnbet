@@ -1,0 +1,10 @@
+generator client { provider = "prisma-client-js" }
+datasource db { provider = "postgresql"; url = env("DATABASE_URL") }
+model Admin { id String @id @default(cuid()); username String @unique; passwordHash String; role String @default("owner"); totpSecret String?; createdAt DateTime @default(now()); sessions AdminSession[]; auditLogs AuditLog[] }
+model AdminSession { id String @id @default(cuid()); adminId String; tokenHash String @unique; expiresAt DateTime; createdAt DateTime @default(now()); admin Admin @relation(fields:[adminId],references:[id],onDelete:Cascade); @@index([expiresAt]) }
+model SiteConfig { id String @id @default("default"); version Int @default(1); draft Json; published Json; updatedAt DateTime @updatedAt }
+model PublishVersion { id String @id @default(cuid()); version Int; payload Json; createdAt DateTime @default(now()); createdBy String; @@unique([version]) }
+model Game { id String @id @default(cuid()); slug String @unique; title Json; description Json; category String; provider String?; image String?; imageAlt Json; launchUrl String?; isActive Boolean @default(true); sortOrder Int @default(0); createdAt DateTime @default(now()); updatedAt DateTime @updatedAt }
+model Media { id String @id @default(cuid()); key String @unique; url String; mimeType String; size Int; width Int?; height Int?; alt Json; createdAt DateTime @default(now()) }
+model WinDemo { id String @id @default(cuid()); day String; revealAt DateTime; maskedName String; amount Int; currency String @default("AMD"); createdAt DateTime @default(now()); @@index([day,revealAt]) }
+model AuditLog { id String @id @default(cuid()); adminId String; action String; entity String; entityId String?; before Json?; after Json?; createdAt DateTime @default(now()); admin Admin @relation(fields:[adminId],references:[id],onDelete:Restrict); @@index([createdAt]) }
