@@ -1,0 +1,1 @@
+import {config} from "@/lib/config"; export function TelegramFab(){return <a className="fab" href={config.telegramUrl} aria-label="Telegram">T</a>}
