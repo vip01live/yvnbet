@@ -1,0 +1,1 @@
+export default function Page(){return <article className="container section"><h1>Մեր մասին</h1><p>YvnBet-ը ներկայացնում է խաղերի վերաբերյալ տեղեկություն, հասանելիություն և Telegram-ով օժանդակություն։ Չհաստատված ընկերության, լիցենզիայի կամ համագործակցության տվյալներ չեն ներկայացվում։</p></article>}
