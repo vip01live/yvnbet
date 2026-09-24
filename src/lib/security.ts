@@ -1,0 +1,1 @@
+import {z} from "zod"; export const externalUrl=z.string().url().refine(v=>{try{const u=new URL(v);return ["https:"].includes(u.protocol)}catch{return false}},"Only HTTPS URLs are allowed"); export function safeExternalUrl(value:string){const r=externalUrl.safeParse(value);return r.success?r.data:null}
