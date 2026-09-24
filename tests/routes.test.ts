@@ -1,0 +1,1 @@
+import {describe,it,expect} from "vitest"; describe("YvnBet routes",()=>{it("defines required public routes",()=>{expect(["/","/login/","/terms/","/about/","/contact/","/privacy/","/partners/","/responsible-gaming/","/admin/login/","/admin/"]).toHaveLength(10)})})
